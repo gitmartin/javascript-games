@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.square {
+    width: 50px;
+    height: 50px;
+    border-width: 1px;
+    border-style: dashed;
+    border-color: black;
+    margin-left: 0px;
+}
+
+.bottom {
+    border-bottom-width: 0px;
+}
+
+.left {
+    border-left-width: 0px;
+}
+
+.right {
+    border-right-width: 0px;
+}
+
+.grid {
+    display: flex;
+    flex-flow: row wrap;
+    width: 358px;
+    border-width: 4px;
+    border-style: solid;
+    border-top-style: none;
+    align-content: center;
+    justify-content: center;
+}
+
+.blue {
+    background-image: url(images/blue.png);
+}
+.red {
+    background-image: url(images/red.png);
+}
